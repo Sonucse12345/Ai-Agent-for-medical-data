@@ -28,26 +28,6 @@ The application follows a modular architecture with these key components:
 - 🔄 **Thread-safe Database Connection Pool**: Efficient connection management for concurrent queries  
 
 
-## 🛠️ System Installation
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/medical-sql-assistant.git
-cd medical-sql-assistant
-
-| Package               | Purpose                            |
-| --------------------- | ---------------------------------- |
-| `streamlit`           | Web application framework          |
-| `pandas`              | Data manipulation and display      |
-| `sqlite3`             | Database connection                |
-| `dotenv`              | Environment variable management    |
-| `agno`                | Natural language to SQL conversion |
-| `groq`                | LLM API integration                |
-| `PIL`                 | Image processing for logo          |
-| `logging`             | Application logging                |
-| `hashlib`             | Performance optimization (hashing) |
-| `functools.lru_cache` | Caching optimized queries          |
-
 agno >= 0.5.1  
 groq >= 0.4.0  
 python-dotenv >= 1.0.0  
@@ -81,3 +61,24 @@ https://console.groq.com/docs/integrations
 https://blog.futuresmart.ai/mastering-natural-language-to-sql-with-langchain-nl2sql#heading-building-a-basic-nl2sql-model
 https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_OpenAI.ipynb
 https://youtu.be/SH3R8ryfR04?si=PN86H9NTOkJTnv4z
+## 🛠️ System Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/medical-sql-assistant.git
+cd medical-sql-assistant
+
+| Package               | Purpose                            |
+| --------------------- | ---------------------------------- |
+| `streamlit`           | Web application framework          |
+| `pandas`              | Data manipulation and display      |
+| `sqlite3`             | Database connection                |
+| `dotenv`              | Environment variable management    |
+| `agno`                | Natural language to SQL conversion |
+| `groq`                | LLM API integration                |
+| `PIL`                 | Image processing for logo          |
+| `logging`             | Application logging                |
+| `hashlib`             | Performance optimization (hashing) |
+| `functools.lru_cache` | Caching optimized queries          |
+
+
