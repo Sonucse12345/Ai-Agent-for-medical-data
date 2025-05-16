@@ -65,17 +65,19 @@ LOG_LEVEL=INFO
 The application works with a medical practice database that contains the following tables:
 
 Patients
-
 Appointments
-
 Billing
-
 Insurance
-
 Procedures
-
 Doctors/Staff
-
 Financial data
-
 Supply inventory
+
+##Reference:-
+https://github.com/infiniflow/ragflow
+https://youtu.be/wdHlKXFPqro?si=O8J8TtlHicoJAZ8S
+https://github.com/venugopal-adep/agno-agents/blob/main/agno_agent_advanced.ipynb
+https://console.groq.com/docs/integrations
+https://blog.futuresmart.ai/mastering-natural-language-to-sql-with-langchain-nl2sql#heading-building-a-basic-nl2sql-model
+https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_OpenAI.ipynb
+https://youtu.be/SH3R8ryfR04?si=PN86H9NTOkJTnv4z
