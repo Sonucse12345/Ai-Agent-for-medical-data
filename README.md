@@ -41,7 +41,7 @@ AGNO_API_KEY=your_agno_api_key
 DATABASE_URL=sqlite:///medical_practice.db
 LOG_LEVEL=INFO
 
-##Database Schema
+##**Database Schema**
 The application works with a medical practice database that contains the following tables:
 
 Patients
