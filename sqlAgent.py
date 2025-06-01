@@ -23,7 +23,7 @@ groq_api_key = os.getenv("GROQ_API_KEY")
 if not groq_api_key:
     raise ValueError("GROQ_API_KEY is not set in the environment variables.")
 
-agno_api_key = os.getenv("AGNO_API_KEY", "ag-vHLWHegaXlwb22T3a9Wetl_u8Z17SyEnCJEMwlBH5jM")
+agno_api_key = os.getenv("AGNO_API_KEY", "api key")
 os.environ["AGNO_API_KEY"] = agno_api_key
 
 db_url = os.getenv("DATABASE_URL", "sqlite:///medical_practice.db")
